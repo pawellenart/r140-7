@@ -1,0 +1,515 @@
+{
+    "External": [
+        {
+            "title": "Sintel (DASH-CLEAR)",
+            "externalSourceUrl": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
+            "playbackMode": "VOD"
+        },
+        {
+            "title": "Live (DASH-DYNAMIC-CLEAR)",
+            "externalSourceUrl": "https://livesim.dashif.org/livesim/mup_30/testpic_2s/Manifest.mpd",
+            "playbackMode": "LIVE"
+        },
+        {
+            "title": "Sintel (HLS-CLEAR)",
+            "externalSourceUrl": "https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+            "playbackMode": "VOD"
+        }
+    ],
+    "DevTest": [
+        {
+            "title": "Channel 2",
+            "serverUrl": "https://ottapp-appgw-amp-a.dev.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4346",
+            "playbackMode": "LIVE",
+            "appToken": "3493840",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1tVRbb6M4FP41zcuokQGD8QMPJJBLm3vJpfPmgCFuwKa2SSC_fpwqo5VWO9Ku1JUvHM75_HFuJmwyRnlKg5PWtXpywid7ZKakZcd4UROpu35GL_1K9vXFSUvRZP1UVAbSmyrVUPm3g0qrP-HvwL9w6YlWRPXbqlSC1H0hC6O9KrPZALjm8bWxjHLNdGfEtCSsuts5qWjwuSArqT6X0-f2ICy1nop4Nz_NFzOl3FPS-PHtvBbL9aLNt70NJWUVzKa7eBr1EsoJ19MsyGhOmlL3InphKU26mgZ7eoyzgj5UBpM-5x5MM5jlzxlEuYMhfbbdI0b0iF3QC9NUNF9kZ9GoEzv3ST9rtCZPEFQ0Y-TM-Ff4hvHrY1tF5b9AjyjRjaRjKZrawG0fI9fGvcfp_xL6WBoCFVi-71smnwPbQhbysJEss6BZruNhCIzgIcfGbi8sS3Gl2e80qYCU5T-XrmKpFErk-lHg38Xz78Xz_lA8KUoapIJrY_pREU4KKr-bnov0B8kqxv8P4kZ9v8OippJo8e28qjmqVLKj8Ths9ElIdiOaCT4n6hw4GPmuGdjygedi2wcOtF3H9ky7OQhDbJoOIgc6nhn3voEWtpHle8gGFoCu65qTDoDYdj0zsWfZEAOAenFbM0nVkgeW52DfdiyAe0NpeppmDyVyPGSUy0fciThT_sYKbn45Qyp1cmqqYy0Z1wGGQxQZLz0Qh8i2BwiHbuh5MI5jGw5sjNAwioZw0Fuu4k2YLDdv0_EiTLabONiv09Nyd853-lRxIkFHdqEqybzg-2y6WU3C-J7ky_HWklH3eWNbwYolOWhzFw6Hew1GMmNY7trjq8yTTbNxdjJ5N9ZiNfRE_NLG3qbR-ev-o2pkbDv58GddLiZXeDkN_GHsVuvJixBpRKLqftdmUVu84m2077YH8x631uB6yyPwisDWHtzIAqy8d_rijVZwpjuwzgQqAWpK66YwYHGxqo8qHjW3m6MO7kni9JCMqgH6IHwYz-G-m3aoO0_sarD_2Rp--RFWYKMsykE593GbRIu58sAyGx9mU3lhmZun42vJJ8R6270v8uX8ei6TJZsJj8MJK-nUkFzc1eijrgdGPA4SOGKLhIyjkWOSE5XvcxYtih1_XT85kZm_AA"
+        },
+        {
+            "title": "Channel 4",
+            "serverUrl": "https://ottapp-appgw-amp-a.dev.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4347",
+            "playbackMode": "LIVE",
+            "appToken": "3493842",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1tVRbb6M4FP41zcuokQGD8QMPJJBLm3vJpfPmgCFuwKa2SSC_fpwqo5VWO9Ku1JUvHM75_HFuJmwyRnlKg5PWtXpywid7ZKakZcd4UROpu35GL_1K9vXFSUvRZP1UVAbSmyrVUPm3g0qrP-HvwL9w6YlWRPXbqlSC1H0hC6O9KrPZALjm8bWxjHLNdGfEtCSsuts5qWjwuSArqT6X0-f2ICy1nop4Nz_NFzOl3FPS-PHtvBbL9aLNt70NJWUVzKa7eBr1EsoJ19MsyGhOmlL3InphKU26mgZ7eoyzgj5UBpM-5x5MM5jlzxlEuYMhfbbdI0b0iF3QC9NUNF9kZ9GoEzv3ST9rtCZPEFQ0Y-TM-Ff4hvHrY1tF5b9AjyjRjaRjKZrawG0fI9fGvcfp_xL6WBoCFVi-71smnwPbQhbysJEss6BZruNhCIzgIcfGbi8sS3Gl2e80qYCU5T-XrmKpFErk-lHg38Xz78Xz_lA8KUoapIJrY_pREU4KKr-bnov0B8kqxv8P4kZ9v8OippJo8e28qjmqVLKj8Ths9ElIdiOaCT4n6hw4GPmuGdjygedi2wcOtF3H9ky7OQhDbJoOIgc6nhn3voEWtpHle8gGFoCu65qTDoDYdj0zsWfZEAOAenFbM0nVkgeW52DfdiyAe0NpeppmDyVyPGSUy0fciThT_sYKbn45Qyp1cmqqYy0Z1wGGQxQZLz0Qh8i2BwiHbuh5MI5jGw5sjNAwioZw0Fuu4k2YLDdv0_EiTLabONiv09Nyd853-lRxIkFHdqEqybzg-2y6WU3C-J7ky_HWklH3eWNbwYolOWhzFw6Hew1GMmNY7trjq8yTTbNxdjJ5N9ZiNfRE_NLG3qbR-ev-o2pkbDv58GddLiZXeDkN_GHsVuvJixBpRKLqftdmUVu84m2077YH8x631uB6yyPwisDWHtzIAqy8d_rijVZwpjuwzgQqAWpK66YwYHGxqo8qHjW3m6MO7kni9JCMqgH6IHwYz-G-m3aoO0_sarD_2Rp--RFWYKMsykE593GbRIu58sAyGx9mU3lhmZun42vJJ8R6270v8uX8ei6TJZsJj8MJK-nUkFzc1eijrgdGPA4SOGKLhIyjkWOSE5XvcxYtih1_XT85kZm_AA"
+        },
+        {
+            "title": "Channel 7",
+            "serverUrl": "https://ottapp-appgw-amp-a.dev.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4344",
+            "playbackMode": "LIVE",
+            "appToken": "3493844",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1tVRbb6M4FP41zcuokQGD8QMPJJBLm3vJpfPmgCFuwKa2SSC_fpwqo5VWO9Ku1JUvHM75_HFuJmwyRnlKg5PWtXpywid7ZKakZcd4UROpu35GL_1K9vXFSUvRZP1UVAbSmyrVUPm3g0qrP-HvwL9w6YlWRPXbqlSC1H0hC6O9KrPZALjm8bWxjHLNdGfEtCSsuts5qWjwuSArqT6X0-f2ICy1nop4Nz_NFzOl3FPS-PHtvBbL9aLNt70NJWUVzKa7eBr1EsoJ19MsyGhOmlL3InphKU26mgZ7eoyzgj5UBpM-5x5MM5jlzxlEuYMhfbbdI0b0iF3QC9NUNF9kZ9GoEzv3ST9rtCZPEFQ0Y-TM-Ff4hvHrY1tF5b9AjyjRjaRjKZrawG0fI9fGvcfp_xL6WBoCFVi-71smnwPbQhbysJEss6BZruNhCIzgIcfGbi8sS3Gl2e80qYCU5T-XrmKpFErk-lHg38Xz78Xz_lA8KUoapIJrY_pREU4KKr-bnov0B8kqxv8P4kZ9v8OippJo8e28qjmqVLKj8Ths9ElIdiOaCT4n6hw4GPmuGdjygedi2wcOtF3H9ky7OQhDbJoOIgc6nhn3voEWtpHle8gGFoCu65qTDoDYdj0zsWfZEAOAenFbM0nVkgeW52DfdiyAe0NpeppmDyVyPGSUy0fciThT_sYKbn45Qyp1cmqqYy0Z1wGGQxQZLz0Qh8i2BwiHbuh5MI5jGw5sjNAwioZw0Fuu4k2YLDdv0_EiTLabONiv09Nyd853-lRxIkFHdqEqybzg-2y6WU3C-J7ky_HWklH3eWNbwYolOWhzFw6Hew1GMmNY7trjq8yTTbNxdjJ5N9ZiNfRE_NLG3qbR-ev-o2pkbDv58GddLiZXeDkN_GHsVuvJixBpRKLqftdmUVu84m2077YH8x631uB6yyPwisDWHtzIAqy8d_rijVZwpjuwzgQqAWpK66YwYHGxqo8qHjW3m6MO7kni9JCMqgH6IHwYz-G-m3aoO0_sarD_2Rp--RFWYKMsykE593GbRIu58sAyGx9mU3lhmZun42vJJ8R6270v8uX8ei6TJZsJj8MJK-nUkFzc1eijrgdGPA4SOGKLhIyjkWOSE5XvcxYtih1_XT85kZm_AA"
+        },
+        {
+            "title": "Default 24091241201 Jitp Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.dev.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default_24091241201_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1tVRbb6M4FP41zcuokQGD8QMPJJBLm3vJpfPmgCFuwKa2SSC_fpwqo5VWO9Ku1JUvHM75_HFuJmwyRnlKg5PWtXpywid7ZKakZcd4UROpu35GL_1K9vXFSUvRZP1UVAbSmyrVUPm3g0qrP-HvwL9w6YlWRPXbqlSC1H0hC6O9KrPZALjm8bWxjHLNdGfEtCSsuts5qWjwuSArqT6X0-f2ICy1nop4Nz_NFzOl3FPS-PHtvBbL9aLNt70NJWUVzKa7eBr1EsoJ19MsyGhOmlL3InphKU26mgZ7eoyzgj5UBpM-5x5MM5jlzxlEuYMhfbbdI0b0iF3QC9NUNF9kZ9GoEzv3ST9rtCZPEFQ0Y-TM-Ff4hvHrY1tF5b9AjyjRjaRjKZrawG0fI9fGvcfp_xL6WBoCFVi-71smnwPbQhbysJEss6BZruNhCIzgIcfGbi8sS3Gl2e80qYCU5T-XrmKpFErk-lHg38Xz78Xz_lA8KUoapIJrY_pREU4KKr-bnov0B8kqxv8P4kZ9v8OippJo8e28qjmqVLKj8Ths9ElIdiOaCT4n6hw4GPmuGdjygedi2wcOtF3H9ky7OQhDbJoOIgc6nhn3voEWtpHle8gGFoCu65qTDoDYdj0zsWfZEAOAenFbM0nVkgeW52DfdiyAe0NpeppmDyVyPGSUy0fciThT_sYKbn45Qyp1cmqqYy0Z1wGGQxQZLz0Qh8i2BwiHbuh5MI5jGw5sjNAwioZw0Fuu4k2YLDdv0_EiTLabONiv09Nyd853-lRxIkFHdqEqybzg-2y6WU3C-J7ky_HWklH3eWNbwYolOWhzFw6Hew1GMmNY7trjq8yTTbNxdjJ5N9ZiNfRE_NLG3qbR-ev-o2pkbDv58GddLiZXeDkN_GHsVuvJixBpRKLqftdmUVu84m2077YH8x631uB6yyPwisDWHtzIAqy8d_rijVZwpjuwzgQqAWpK66YwYHGxqo8qHjW3m6MO7kni9JCMqgH6IHwYz-G-m3aoO0_sarD_2Rp--RFWYKMsykE593GbRIu58sAyGx9mU3lhmZun42vJJ8R6270v8uX8ei6TJZsJj8MJK-nUkFzc1eijrgdGPA4SOGKLhIyjkWOSE5XvcxYtih1_XT85kZm_AA"
+        }
+    ],
+    "CIM": [
+        {
+            "title": "Default 20005 Jitp Reach_HD (OLD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default_20005_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "Default 2002 Jitp Reach_HD (OLD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default_2002_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "Default 20009 Jitp Reach_HD (OLD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default_20009_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "Default 3797 Jitp Reach_HD (OLD-Can-Play-False)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default1_3797_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "nkWorld (NEW-LIVE)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "nkworld",
+            "playbackMode": "LIVE",
+            "appToken": "9355",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "kpixsd (NEW-LIVE)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "kpixsd",
+            "playbackMode": "LIVE",
+            "appToken": "9357",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "Channel-2 (OLD-LIVE)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4346",
+            "playbackMode": "LIVE",
+            "appToken": "4900",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        },
+        {
+            "title": "Channel-4 (OLD-KR-Live-1001s)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cim.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4347",
+            "playbackMode": "LIVE",
+            "appToken": "4898",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "stsToken": "AuthToken1lVLJbtswEP0a6yaBu6SDDmriLbGdNlUSoDeKZGzCkihwSaJ-fWnXaYGiAVqAMxwO3wwx77EOUqtBqOrg_ehmuJ6hRVxWdZMe9iO3fsqE7rPeZv4Fi84EmQnTR0iydi4o-0eh8-4j_An4GycOqucue-s7Z_iYGbuP2VcXHQKAxu3stFSD136Koei47k_3A-9VNTao4Zun21W7C816J-6-3W5ZNy223_fH3Zw-jEuQbsu3zeNyndwr3vXVZv04X18njRr44NeykuqZh84n1-pFC9VMo6qeVDuXe3VJRYxISc5y0uY8zQlggOEyRSUtAS0YAUkthAnnZkcT3EEfM57J4D2fEdArqflRD-fxY8fzYw9O2X9ALxT3waqlNWGM8EgIAAgnl-r_GX1pYwNXkZLAGfoEy5ICVsaoOJ0uhqPlpx0nddeZVyXfOXK_SPqrdr0W1jjz7C8Kv6tXnNRjH6hnTacqF1onrG6VTergD8bq79xrM2y5O1a4AJFjWECIMEOIFpAwyhArIMhLzJL526itcndDBRnGBOaAkuTKRs6U_JlEBYx1JLlV0zJoWRWMFzym0rYoUUowomlLKUuxhJTkuYC5IslqW199XdWIsmrRbGaofTau3sVf2X4ZXptHQ59WO_i5rOm8fJjCDZ9vwD250UsIZlj-AA"
+        }
+    ],
+    "NBA.ProdC": [
+        {
+            "title": "24x7 NBATVD (Live)",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBATVD",
+            "playbackMode": "LIVE",
+            "appToken": 1098,
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVFNc9sgEP011k0aAZIsDjoo8UfUxJPUsZs6Fw-CtU0tCRWQHfnXF7tOO9NpO-0MuyyPt8uyL--EhIZDtrO2NQOSD_DELQ1VL5tty7Ttg1YrwYOmZIE9EF6pTgRc1Y7lFcZ0oH_JNdb8JeXM_UnlO6iZCd7qyijWBkpvHXo0zuEwjN12cVJAY6XtXcgrJuvzfcNqyJ7sHo7Pk5l8mS4Lc5rMTvTDevr46qfrnNvtabT-vJj7rPiafvTmwKo6eyg-jYuRt4CGNbYQmYAN6yrrjeAgOSz6FrIXKMdiC1fIcbjPU1GWWHDfNcWAYu7jBOKYJZSEXs656i7F9qozO7kPWCA6a9kgCmsQku1lc_m-q3h5bGlA_wP7SvufP051WwiToTCiA3yDKE1pjFxEroauRry8qtQRxPsczI9B_FafWnKtjNrYq4rvCqVnhZI_KKRVBZnpSsO1LEF7eWd3SssTs1I1M2b2GUlD7BpMEcIkwThOUZTECU5SFA4pSbzxWys1mMcmQwmJCMWEEu9WA7MgvoNoiAh14D300046OVNCwnCT-CSKIj_CFPmsFO44dMOgeFhGIvLuZvnt812O4ySbvDZmWT91j91q0yBxs1gdlsrC8eFhfk9vWV8f8d3woL-sxtGAiG8"
+        },
+        {
+            "title": "Tears of Steel (VOD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "ToS-4k-1920-drm_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVFNc9sgEP011k0aAZIsDjoo8UfUxJPUsZs6Fw-CtU0tCRWQHfnXF7tOO9NpO-0MuyyPt8uyL--EhIZDtrO2NQOSD_DELQ1VL5tty7Ttg1YrwYOmZIE9EF6pTgRc1Y7lFcZ0oH_JNdb8JeXM_UnlO6iZCd7qyijWBkpvHXo0zuEwjN12cVJAY6XtXcgrJuvzfcNqyJ7sHo7Pk5l8mS4Lc5rMTvTDevr46qfrnNvtabT-vJj7rPiafvTmwKo6eyg-jYuRt4CGNbYQmYAN6yrrjeAgOSz6FrIXKMdiC1fIcbjPU1GWWHDfNcWAYu7jBOKYJZSEXs656i7F9qozO7kPWCA6a9kgCmsQku1lc_m-q3h5bGlA_wP7SvufP051WwiToTCiA3yDKE1pjFxEroauRry8qtQRxPsczI9B_FafWnKtjNrYq4rvCqVnhZI_KKRVBZnpSsO1LEF7eWd3SssTs1I1M2b2GUlD7BpMEcIkwThOUZTECU5SFA4pSbzxWys1mMcmQwmJCMWEEu9WA7MgvoNoiAh14D300046OVNCwnCT-CSKIj_CFPmsFO44dMOgeFhGIvLuZvnt812O4ySbvDZmWT91j91q0yBxs1gdlsrC8eFhfk9vWV8f8d3woL-sxtGAiG8"
+        },
+        {
+            "title": "NBA Jitp Reach HD (VOD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_CMPA0671616623679614_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVFNc9sgEP011k0aAZIsDjoo8UfUxJPUsZs6Fw-CtU0tCRWQHfnXF7tOO9NpO-0MuyyPt8uyL--EhIZDtrO2NQOSD_DELQ1VL5tty7Ttg1YrwYOmZIE9EF6pTgRc1Y7lFcZ0oH_JNdb8JeXM_UnlO6iZCd7qyijWBkpvHXo0zuEwjN12cVJAY6XtXcgrJuvzfcNqyJ7sHo7Pk5l8mS4Lc5rMTvTDevr46qfrnNvtabT-vJj7rPiafvTmwKo6eyg-jYuRt4CGNbYQmYAN6yrrjeAgOSz6FrIXKMdiC1fIcbjPU1GWWHDfNcWAYu7jBOKYJZSEXs656i7F9qozO7kPWCA6a9kgCmsQku1lc_m-q3h5bGlA_wP7SvufP051WwiToTCiA3yDKE1pjFxEroauRry8qtQRxPsczI9B_FafWnKtjNrYq4rvCqVnhZI_KKRVBZnpSsO1LEF7eWd3SssTs1I1M2b2GUlD7BpMEcIkwThOUZTECU5SFA4pSbzxWys1mMcmQwmJCMWEEu9WA7MgvoNoiAh14D300046OVNCwnCT-CSKIj_CFPmsFO44dMOgeFhGIvLuZvnt812O4ySbvDZmWT91j91q0yBxs1gdlsrC8eFhfk9vWV8f8d3woL-sxtGAiG8"
+        },
+        {
+            "title": "NBA_202105192007NBA (VOD)",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_202105192007NBA_____VIDEOS__NBAE_2556507_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "koushik.a.dutta@mediakind.com",
+            "newServer": true,
+            "stsToken": "AuthToken1lVFNc9sgEP011k0aAZIsDjoo8UfUxJPUsZs6Fw-CtU0tCRWQHfnXF7tOO9NpO-0MuyyPt8uyL--EhIZDtrO2NQOSD_DELQ1VL5tty7Ttg1YrwYOmZIE9EF6pTgRc1Y7lFcZ0oH_JNdb8JeXM_UnlO6iZCd7qyijWBkpvHXo0zuEwjN12cVJAY6XtXcgrJuvzfcNqyJ7sHo7Pk5l8mS4Lc5rMTvTDevr46qfrnNvtabT-vJj7rPiafvTmwKo6eyg-jYuRt4CGNbYQmYAN6yrrjeAgOSz6FrIXKMdiC1fIcbjPU1GWWHDfNcWAYu7jBOKYJZSEXs656i7F9qozO7kPWCA6a9kgCmsQku1lc_m-q3h5bGlA_wP7SvufP051WwiToTCiA3yDKE1pjFxEroauRry8qtQRxPsczI9B_FafWnKtjNrYq4rvCqVnhZI_KKRVBZnpSsO1LEF7eWd3SssTs1I1M2b2GUlD7BpMEcIkwThOUZTECU5SFA4pSbzxWys1mMcmQwmJCMWEEu9WA7MgvoNoiAh14D300046OVNCwnCT-CSKIj_CFPmsFO44dMOgeFhGIvLuZvnt812O4ySbvDZmWT91j91q0yBxs1gdlsrC8eFhfk9vWV8f8d3woL-sxtGAiG8"
+        },
+        {
+            "title": "VOD NBA_nba-manage-dev-1-401786_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_nba-manage-dev-1-401786_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        },
+        {
+            "title": "VOD NBA_2_21700939_bos_hou_2017_abc_whole_1_6000_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_2_21700939_bos_hou_2017_abc_whole_1_6000_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        },
+        {
+            "title": "VOD NBA_nba-manage-dev-1-558942_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_nba-manage-dev-1-558942_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        },
+        {
+            "title": "L2V NBA_g1522109085uta1000241dalV_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g1522109085uta1000241dalV_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        },
+        {
+            "title": "L2V NBA_g0042009385atl1000240miaV_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g0042009385atl1000240miaV_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        },
+        {
+            "title": "L2V NBA_g0042009386bkn1000241houV_Jitp_Reach_HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g0042009386bkn1000241houV_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": null,
+            "primaryAccount": "b63478d0abb6bef274a24fa9235494d8da5e4f92a3aa132ad5a1a6cb65eabc25",
+            "newServer": true,
+            "stsToken": "AuthToken1rVHLbtswEPwa6yZBJMWVeNBBSW0nKYwCefXMx9IWIokCSdVxv750HggQtEUPBYjhYjg7AGe6xfQ4aWwPMc5hxboV3aTjcTj1036WPp6K2Tuji0nJIv5genCLKbQbkyq7DmFB_2k3xPCXlbP2Q6oPOMpQPI9DcHIunN8n9hgS0LLk6XqB3uAU-3hKox5kP57fJzliCwYMYom5pqTJK21ZLqzWOSrNkQiwDdjsHic5xWvTGrRyGWLWDYM7onnnw8eD1m55kSpgVd2YUioFCi2tK0krKwVlvBKVaYzkWFlBJZOSMCoNl0SCVsBRKk159uXV8iGg_x92G5Rx8bj1bpmTXwqnLAlkb_b_FMPWz-e_UqD1il4QIWpWs_NEElTn4ffdjL32Ljgb3xp8b6c5twN_aMe7AduwqKB9r9Bn3RIPzvc_ZezdtJPhqWVNSQUnDSGUAaW8IRVwoNCQshYMsvXz3HsM36aWAGPAWc1JdulTDmheyVLUnCXyK562S59CUVVD0WBumSV5RRM01tpcCA2QAhLSlNnVrru8u-ooh5bfwlOnv9-UxMLjZt6xo11RFS_M49oOcKcehqNA2Nzcru_5fsXMLw"
+        }
+    ],
+    "NBA.ProdB": [
+        {
+            "title": "24x7 NBATVD (Live)",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBATVD",
+            "playbackMode": "LIVE",
+            "appToken": 1026,
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "VOD NBA_C10D402DA575A3DC2B6FFB91C40269802D9E8B2D",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_C10D402DA575A3DC2B6FFB91C40269802D9E8B2D_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "VOD NBA_KOBE_BRYANT_TOP_10_PLAYS_asset",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_KOBE_BRYANT_TOP_10_PLAYS_asset_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "VOD NBA_96e6a440-fc72-3de5-c290-c1d27f000001_1_3000",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_96e6a440-fc72-3de5-c290-c1d27f000001_1_3000_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "L2V NBA_g0022109089atl1000240miaV",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g0022109089atl1000240miaV_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "L2V NBA_g0022109099lac1000242bosV",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g0022109099lac1000242bosV_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        },
+        {
+            "title": "L2V NBA_g0042009386bkn1000241houV",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodb.nba.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "NBA_g0042009386bkn1000241houV_Jitp_Reach_UHD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "9189d491-280a-4684-9406-d96dc3c0fef1",
+            "newServer": true,
+            "stsToken": "AuthToken1jVBda9wwEPw15zcZfVmWHvzgXNO7awmFpqWkb7K0yonaliPJzV1_fe1LQqC0JbDaHWZnxDLtbD2MBppjzlPasHZD3y8VoT_78X7SMZ_LKQbblWOny_yTmT7MtjRhWFTFIaUZ4h_elNN_LKv2VWqOMOhUnoY-BT2VId4v7GNaGsW4WsaleQtj9vm8QNNrP6z7UQ_QWGF4VQuOXN11iNdAkFJcI85rzqyrLee8-AKjHvPBNhacnvtctH0fHsG-8Ol1YUyYL1JFpLJcEUQlXr4TkiPFsUBWCWuYwQ4cKd492b4miG-1PGvfdPcuTutxBBO5oVdEKakkXdH6_p7j4E0MKbj8nPZLknJNUvwjyRh6aNLcJRN9B7Fo53wM0f_S2YfxRqcfDZOYqopIQigTlFaScFEJKiTBtWKiuD5NPkL6NDZEMCaqqlrIbQSdwT6RWNU1WciPcN7N3jaOWeZsRZADQxHXDpBWUCPoFGDKaecILfY37fZ239JKNNVd_X23od2lXH84fbv7vADxcLs1uN2q2w_Xnmwf5OG8zy5c5eF02DD7Gw"
+        }
+    ],
+    "CCX.ProdC":[
+        {
+            "title": "Channel 9 City",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.ccx.tv3cloud.com/",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$1081",
+            "playbackMode": "LIVE",
+            "appToken": 3379,
+            "primaryAccount": "mfdevuser12",
+            "newServer": false,
+            "stsToken": "AuthToken1fVHbUtswEP2a-M0ZS7Jl-8EPJgkhbYFCAnR4k6UVUbEtjy65fX1lJrQdhnZGe9HZs9LsntoLBT2HauvcYCeknuDLcAy0R9W_DMy443QwWvAp54ep2xHeai-mXHeBFa2s9WA-9Fpn_9Mycv9Q-RY6ZqeHrrWaDVNtXgK6t8HhJMlCeHNKQO-UO4aUt0x1Y71nHVSyOOmcenfapYb3ViRgXqN7YG1XLRc3i_vVbHEzf1gv7tfRBnrWu5WoBEjmWxfNYac4bI4DPOLqCZq_gPG6ZpIZdQZDG48RYqyhmYwBctlkvIkxFySXJOM8qjnX_u39TgrYeQsG4dD99tdDuH2oXAJz3sDSaD-EUpg2zEuiM_PTuZYmMG1FCpJO8AUqS4ooHTMUXDYmeHTBSLD3PDvH4kONJiOQ51HdtnoP4n0_9veCPlWqU9xoq6U76_muVTFqRf-hldEtVNY3lhvVgIlq77baqBNzSvfXzL6GoRJcZqhACBOKcVaglGYU0wIleUlotDgMyoC97StEU1rkBcFpNDNhiSDOYF6iMoBf4bj0SlQkSVmBKcRFitM4LVkSFwmXcc4TKSmBBss0urquZ-urGme0mvmfd033Y_V9KL_cPqpue_i2X17IzdORwXq12M93z5v19fPgw_aJ-AU"
+        },
+        {
+            "title": "Channel 31 WCAX",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.ccx.tv3cloud.com/",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$1055",
+            "playbackMode": "LIVE",
+            "appToken": 1265,
+            "primaryAccount": "mfdevuser12",
+            "newServer": false,
+            "stsToken": "AuthToken1fVHbUtswEP2a-M0ZS7Jl-8EPJgkhbYFCAnR4k6UVUbEtjy65fX1lJrQdhnZGe9HZs9LsntoLBT2HauvcYCeknuDLcAy0R9W_DMy443QwWvAp54ep2xHeai-mXHeBFa2s9WA-9Fpn_9Mycv9Q-RY6ZqeHrrWaDVNtXgK6t8HhJMlCeHNKQO-UO4aUt0x1Y71nHVSyOOmcenfapYb3ViRgXqN7YG1XLRc3i_vVbHEzf1gv7tfRBnrWu5WoBEjmWxfNYac4bI4DPOLqCZq_gPG6ZpIZdQZDG48RYqyhmYwBctlkvIkxFySXJOM8qjnX_u39TgrYeQsG4dD99tdDuH2oXAJz3sDSaD-EUpg2zEuiM_PTuZYmMG1FCpJO8AUqS4ooHTMUXDYmeHTBSLD3PDvH4kONJiOQ51HdtnoP4n0_9veCPlWqU9xoq6U76_muVTFqRf-hldEtVNY3lhvVgIlq77baqBNzSvfXzL6GoRJcZqhACBOKcVaglGYU0wIleUlotDgMyoC97StEU1rkBcFpNDNhiSDOYF6iMoBf4bj0SlQkSVmBKcRFitM4LVkSFwmXcc4TKSmBBss0urquZ-urGme0mvmfd033Y_V9KL_cPqpue_i2X17IzdORwXq12M93z5v19fPgw_aJ-AU"
+        },
+        {
+            "title": "Channel 48 HALTON",
+            "serverUrl": "https://ottapp-appgw-amp-a.prodc.ccx.tv3cloud.com/",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$2225",
+            "playbackMode": "LIVE",
+            "appToken": 3796,
+            "primaryAccount": "mfdevuser12",
+            "newServer": false,
+            "stsToken": "AuthToken1fVHbUtswEP2a-M0ZS7Jl-8EPJgkhbYFCAnR4k6UVUbEtjy65fX1lJrQdhnZGe9HZs9LsntoLBT2HauvcYCeknuDLcAy0R9W_DMy443QwWvAp54ep2xHeai-mXHeBFa2s9WA-9Fpn_9Mycv9Q-RY6ZqeHrrWaDVNtXgK6t8HhJMlCeHNKQO-UO4aUt0x1Y71nHVSyOOmcenfapYb3ViRgXqN7YG1XLRc3i_vVbHEzf1gv7tfRBnrWu5WoBEjmWxfNYac4bI4DPOLqCZq_gPG6ZpIZdQZDG48RYqyhmYwBctlkvIkxFySXJOM8qjnX_u39TgrYeQsG4dD99tdDuH2oXAJz3sDSaD-EUpg2zEuiM_PTuZYmMG1FCpJO8AUqS4ooHTMUXDYmeHTBSLD3PDvH4kONJiOQ51HdtnoP4n0_9veCPlWqU9xoq6U76_muVTFqRf-hldEtVNY3lhvVgIlq77baqBNzSvfXzL6GoRJcZqhACBOKcVaglGYU0wIleUlotDgMyoC97StEU1rkBcFpNDNhiSDOYF6iMoBf4bj0SlQkSVmBKcRFitM4LVkSFwmXcc4TKSmBBss0urquZ-urGme0mvmfd033Y_V9KL_cPqpue_i2X17IzdORwXq12M93z5v19fPgw_aJ-AU"
+        }
+    ],
+    "PreProd": [
+        {
+            "title": "MF Asset-DAI Multiple Audio (PrePod - DAI)",
+            "serverUrl": "https://ottapp-appgw-amp-a.pprod.mr.tv3cloud.com",
+            "ownerUid": "tenant1",
+            "primaryAccount": "",
+            "tenantId": "tenant1",
+            "mediaUid": "tenant1_Default_8026_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "stsToken": "",
+            "catchupStartTime": "",
+            "inhomeServerUrl": "https://mkinhome.azurewebsites.net/v1/ihd/users/userAccount/{accountId}/isInHome",
+            "inhomeServerToken": "eyJhbGciOiJIUzI1NiIsInR5"
+        },
+        {
+            "title": "Frozen II (PProd - CC)",
+            "serverUrl": "https://ottapp-appgw-amp-a.pprod.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "primaryAccount": "",
+            "tenantId": "",
+            "mediaUid": "default_TestData_7670_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "stsToken": "",
+            "catchupStartTime": ""
+        },
+        {
+            "title": "MF-Asset (PPod - Subtitle)",
+            "serverUrl": "https://ottapp-appgw-amp-a.pprod.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "primaryAccount": "",
+            "tenantId": "",
+            "mediaUid": "Default1_567905_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "stsToken": "",
+            "catchupStartTime": ""
+        }
+    ],
+    "CID": [
+        {
+            "title": "KGO HD",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "tenantId": "",
+            "mediaUid": "LIVE$11944",
+            "appToken": 22023,
+            "playbackMode": "LIVE",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D",
+            "catchupStartTime": ""
+        },
+        {
+            "title": "Western Stars II (CID)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "tenantId": "",
+            "mediaUid": "Default1_3111_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D",
+            "catchupStartTime": ""
+        },
+        {
+            "title": "Big Buck Bunny (seek/skip backward blocked)",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "tenantId": "",
+            "mediaUid": "Default1_1660_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D",
+            "catchupStartTime": ""
+        },
+        {
+            "title": "TNTHD West 545",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$25956",
+            "playbackMode": "LIVE",
+            "appToken": "4747",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D"
+        },
+        {
+            "title": "KTVU-2 SD",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4346",
+            "playbackMode": "LIVE",
+            "appToken": "2204",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D"
+        },
+        {
+            "title": "KRON 4 SD",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "LIVE$4347",
+            "playbackMode": "LIVE",
+            "appToken": "2208",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D"
+        },
+        {
+            "title": "Good Doctors[Spaninsh Subtitles]",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default1_700_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D"
+        },
+        {
+            "title": "Big Buck Bunny[Arabic Subtitles]",
+            "serverUrl": "https://ottapp-appgw-amp-a.cid.mr.tv3cloud.com",
+            "ownerUid": "azuki",
+            "mediaUid": "Default1_1622_Jitp_Reach_HD",
+            "playbackMode": "VOD",
+            "appToken": "",
+            "primaryAccount": "esawsum@outlook.com",
+            "stsToken": "AuthToken1vVTLjqM6EP2azqbVkbF5LliQAHk3STrP2RkwhARsYhuS9NePafXcOxpNL640cyW_qnzq2Jwq4zVpQWhC3JOUtXhC3hMMVeOkfBQ0rzGXj35SpP2K92WLkpI1aT9hlYL0JkI0hP8SKKT4Ct8B_8UlJ1Jh0b9XpWC47jOeK-9NqAECYKjpYyhSQmUhH2qZlLioun2KK-KOxg9_WZ1W2WodLk7b4xJobHQM3s_8pPkV2GTnWJTb4_xK896a4LJy55NdMPF7G0IxlZPUTUmGm1L2fNIWCdk8arKD7p7EPzk6M0hz8ulSQclL7GQJSR37xTbiGMMMvkDHxHEMYYZ6XpKw5oOdCHwTTfWkA9bIkrFLp4Li-ThzKwj_EhMSLBtORpw1tQIpNQDQtN5nzH_57hFXBMK1DduwnuBAczRdM_RuBbrhlw5Vtz7nzkadDbSeV5bsRtIfugkXl-Xvc1kVCWeCZfIz4z-yaXfZNL_IJmclcSlLnnFaFfRvEDdKuT_Ny2rCsWR_jbdmXOLy-cb4JVPy_0_HPFeY4vzPqyWaWCS8iBWz18gT48U7lgWjCywuLlRlqQocWhZCmmNpAAEb2DbSAdRMy9ZNE1iwewKqGG3T1G1oAogsoCOzA1kGRCrCdGwDIMsESLE5Ri-41wUnIqKuZiJoazqCTm_I1dsi6T9OaChn9KnFhl0IfStyqv57Q8Ll5tRUcc0LKtUVLWABx0G2ZwwHvq1rwIFGaAUgMGGo6wMIfc3yFNcyWHubaP02Gb16m-06cHczz3kntLpgYigxB-aDRvn26kTXjTcjURwMVhcl0_TVu0SvQbEWx-M8gPP4TZPjWIxnB89Lxt7hMZ9bjDa03F8VyetwCDfkvliwBUR8KMGyTa-QzMLgcCNqX7U81oERwv29NUbf7tMlq65-GnYZNQ00S300Bsm1lcfxIWjz4dzc3qth0n47Zf6-0HTy1mzfk-mWb-niMZKrQbWPswNCAu703DNWqzZMVrl1HtveOq7l4bJszWkEneg4tdYsa02UiteRXITDejuD0UCqGwXp2z6C53S6jMN5oA3R9dI0pQjLXDSnsQmJrRl0MtlMWF7u_X0ba7pR3NJCXfmSTs_LJq8SC6Ccro-7s7HewegWzB-Ok9po9YR81b4D"
+        }
+    ],
+    "TMO": [
+        {
+            "title": "MF Asset- DAI Multiple Audios (TMO - DAI)",
+            "serverUrl": "https://ottapp-appgw-amp-a.proda.tmo.tv3cloud.com",
+            "ownerUid": "azuki",
+            "primaryAccount": "",
+            "tenantId": "",
+            "mediaUid": "Default_9003_Jitp_Reach_HD",
+            "appToken": "",
+            "playbackMode": "VOD",
+            "stsToken": "",
+            "catchupStartTime": "",
+            "inhomeServerUrl": "https://mkinhome.azurewebsites.net/v1/ihd/users/userAccount/{accountId}/isInHome",
+            "inhomeServerToken": "eyJhbGciOiJIUzI1NiIsInR5"
+        }
+    ]
+}
